@@ -1,0 +1,102 @@
+@font-face {
+    font-family: customfontbane;
+    src: url(FontsFree-Net-AvertaDemoPECuttedDemo-Regular.ttf)format("truetype");
+}
+.bane{
+    height: 512px;
+}
+.row{
+    --bs-gutter-x: 0;
+    margin-right: 0;
+}
+
+.colimg2{
+width:50%;
+padding: 0;
+z-index: 10;
+}
+.banet{
+   display: flex;
+   align-items:center;
+   flex-direction: column;
+   justify-content: center;
+   padding: 90px;
+}
+
+.banetex{
+    font-size: 16px;
+    font-family: customfontbane;
+    line-height: 25.6px;
+    margin-right: 75px;
+    margin-top: 40px;
+}
+.polka-dot {
+    width: 40vw;
+    height: 240px;
+    background-color: #fff;
+    background-image: radial-gradient(#e6e4e4 10%, transparent 11%),
+      radial-gradient(#e6e4e4 10%, transparent 11%);
+    background-size: 30px 30px;
+    background-position: 0 0, 30px 30px;
+    background-repeat: repeat;
+    position: relative;
+    z-index: -10;
+    margin-top: -40px;
+    
+  }
+.custombtn{
+    font-family: customfontbane;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 25px;
+    padding: 20px;
+    position: relative;
+    margin-top: 10px;
+    margin-right: 410px;
+    background-color: #2639ED;
+    border-radius: 40px;
+}
+.handle{
+  font-size: 40px;
+  border-radius: 50%;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+.list-unstyled{
+  margin-top: 30px;
+}
+.size2{
+  font-size: 12px;
+  line-height: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.banehead{
+    font-family: customfontbane;
+    font-size: 50px;
+    color: #000000;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 49.44px;
+}
+.colobj{
+    height: 129px;
+  width: 129px;
+  position:absolute;
+  margin-left: -65px;
+  z-index: -20;
+  background-color: #DAE9FF;
+  border-radius: 50%;
+}
+
+.bentdiv{
+  width: 178px;
+  height: 178px;
+  background-color: #FFF5DB;
+  position: absolute;
+  right: 120px;
+  top:470px;
+  z-index: -20;
+  border-radius: 0 0 100px;
+}

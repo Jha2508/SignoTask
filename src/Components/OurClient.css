@@ -1,0 +1,217 @@
+@font-face {
+    font-family: customf;
+    src: url(FontsFree-Net-AvertaDemoPECuttedDemo-Regular.ttf)format("truetype");
+}
+
+
+.ourclientitle{
+    font-family: customf;
+    font-size: 40px;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.headfoot{
+    font-family: customf;
+    font-weight: 900;
+    font-size: 20px;
+}
+.headfootoptions{
+    font-family: customf;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+}
+.backgroundnewsletter{
+    background-color: #F4F9FF;
+    width:90vw;
+    height: 292px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    border-radius: 75px;
+}
+.logo{
+    width: 162px;
+    height: 55px;
+    margin-top: 50px;
+}
+.commercialtxt{
+    padding-left: 120px;
+}
+
+.ourClientrect{
+    background: #FFF5DB;
+    height: 129px;
+    width: 129px;
+    border-radius:50% 0 0 0 ;
+    position: absolute;
+    z-index: -10;
+    margin-left: -25px;
+    margin-top: -15px;
+}
+.alignR{
+    padding-left: 300px;
+    margin-top: -100px;
+}
+.alignL{
+    margin-top: -200px;
+}
+.marg100{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.marg300{
+    margin-top: 300px;
+    margin-bottom: 300px;}
+.size14{
+    font-size: 14px;
+    line-height: 0px;
+}
+.ourclientdesc{
+    font-family: customf;
+    font-size: 18px;
+    font-weight: 900;
+    color: #757575;
+    font-style: normal;
+    margin-right: 10px;
+}
+.bluebg{
+    border-radius:75px 75px 75px 250px ;
+    background: #2639ED;
+    height: 292px;
+    width: 40vw;
+    right:5vw;
+    align-self: right;
+    margin-top: -103px;
+    position: absolute;z-index: 10;
+}
+.margleftinput{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.z100{
+    z-index: 100;
+    padding: 10px;
+    background-color: white;
+    border-radius: 30px;
+}
+.custominp{
+    border: 0;
+    width: 300px;
+}
+
+.custbtn{
+    font-family: customf;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px;
+    background-color: #2639ED;
+    border-radius: 40px;
+    margin-left: 40px;
+}
+.customAlign{
+    display: flex;
+    align-items: center;
+}
+#capsule{
+    height: 300px;
+    width :500px;
+    background: #000;
+    margin-left: 120px;
+    box-shadow:  0.31em 0.32em .4em rgb(92, 92, 91);
+    border-radius: 10px;}
+
+.margright{
+    margin-right: 120px;
+}
+.testimCircle{
+    background: #FFF5DB;
+    height: 129px;
+    width: 129px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -20;
+    margin-top: 230px;
+    margin-left: -70px;
+}
+
+.newsCircle{
+    background: #FFF5DB;
+    height: 129px;
+    width: 129px;
+    border-radius:0 0 0 50%;
+    position: absolute;
+    z-index: -20;
+    margin-top: 200px;
+    margin-left: -25px;
+}
+.iconsize{
+    font-size: 66px;
+    margin-top: 25px;
+    align-self: center;
+    z-index: 100;
+
+}
+.card-title{
+    margin-top: 20px;
+    font-family: customf;
+    font-size: 24px;
+    font-weight: 700;
+}
+.card-text{
+    color:#757575;
+    font-family: customf;
+    font-size: 16px;
+}
+.backgroundrect{
+    width:100px;
+    height:100px;
+    margin-top: 10px;
+    position: absolute;
+    align-self: center;
+    z-index: 10;
+    border-radius: 20px;
+}
+
+.newsPolka{
+    
+    width: 30vw;
+    height: 240px;
+    background-image: radial-gradient(#DFEEFF 10%, transparent 11%),
+      radial-gradient(#DFEEFF 10%, transparent 11%);
+    background-size: 30px 30px;
+    background-position: 0 0, 30px 30px;
+    position: absolute;
+    background-repeat: repeat;
+    margin-left: 32vw;
+    margin-top: -250px;
+}
+.card{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 35px;
+    padding:10px
+}
+.BussinessBack{
+    width:1000px;
+    height: 530px;
+    position: absolute;
+    margin-top: 100px;
+    z-index: -100;
+    right: 0;
+    border-radius: 150px 0px 0px 0px;
+    background:  #F4F9FF;
+}
+.BussinessRing{
+    width: 140px;
+    height: 140px;
+    background: white;
+    border-radius:50% ;
+    position: absolute;
+    border: 8.8px solid #FF007A;
+box-sizing: border-box;
+margin-top: 580px;
+margin-left: 0px;
+z-index: -1000;
+}

@@ -1,0 +1,28 @@
+@font-face {
+    font-family: customfont;
+    src: url(Proxima\ Nova\ Font.otf) format("opentype");
+}
+
+.customfont1{
+    font-family: customfont;
+    font-weight: 700;
+    font-size: 27.15px;
+}
+.customfont2{
+    font-family: customfont;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 19.78px;
+    font-size: 16px;
+}
+
+.nav-link{
+    margin-left: 60px;
+}
+.navbar{
+    padding:20px
+}
+
+.leftshift{
+    margin-right: 100px;
+}
