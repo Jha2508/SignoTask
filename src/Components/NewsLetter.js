@@ -14,7 +14,7 @@ function NewsLetter() {
             <div className='col-6 col-md ourclientdesc'>
 
             <span className='bluebg'/>
-            <div className="input-group z100 margleftinput">
+            <div className="input-group z100 margleftinput custShadow">
         <input type="text" className="custominp" placeholder="Enter your Email Address here.." aria-label="Recipient's username" aria-describedby="button-addon2" />
         <button className="btn btn-primary custbtn" type="button">Contact Now</button>
       </div>

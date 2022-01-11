@@ -9,6 +9,12 @@ import Testimonials from './Components/Testimonials';
 import Business from './Components/Business';
 
 function App() {
+  var w = window.innerWidth;
+  if(w<800){
+    return(
+      <div> Please Open the website on a laptop or PC.</div>
+    );
+  }
   return (
     <div className="App">
       <Navbar/>

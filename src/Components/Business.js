@@ -15,7 +15,7 @@ function Business() {
                 We build readymade websites, mobile applications, and elaborate online business services.
                 </div>
                 <span className='newsPolka' style={{
-                marginLeft:'40px',
+                left:'7vw',
                 height:'180px',
                 width:'500px',
                 zIndex:-10,

@@ -80,10 +80,11 @@
     background: #2639ED;
     height: 292px;
     width: 40vw;
-    right:5vw;
-    align-self: right;
     margin-top: -103px;
-    position: absolute;z-index: 10;
+    position: absolute;
+    z-index: 10;
+    
+    right:4.1vw;
 }
 .margleftinput{
     margin-left: 50px;
@@ -113,6 +114,13 @@
 .customAlign{
     display: flex;
     align-items: center;
+    justify-content: center;
+    box-shadow: 0.2em 0 .4em rgb(110, 109, 109);
+}
+
+.custShadow{
+    box-shadow: 0.2em 0 .4em rgb(110, 109, 109);
+    
 }
 #capsule{
     height: 300px;
@@ -144,7 +152,7 @@
     position: absolute;
     z-index: -20;
     margin-top: 200px;
-    margin-left: -25px;
+    left:3vw;
 }
 .iconsize{
     font-size: 66px;
@@ -184,7 +192,7 @@
     background-position: 0 0, 30px 30px;
     position: absolute;
     background-repeat: repeat;
-    margin-left: 32vw;
+    right:1vw;
     margin-top: -250px;
 }
 .card{
